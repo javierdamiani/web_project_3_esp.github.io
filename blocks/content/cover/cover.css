@@ -1,0 +1,29 @@
+.cover{
+    position: relative;
+}
+
+/*.cover{
+    /* margin: 92px auto 132px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 1184px;
+    max-height: 740px;
+} */
+/* @media screen and (max-width: 320px) {
+    .cover{
+        max-width: 320px;
+    }
+} */
+/* @media screen and (max-width: 720px) and (min-width: 321px) { */
+    /* .cover{ */
+    /* } */
+/* } */
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover{
+        width: 100%;
+        min-height: 300px;
+        overflow: hidden;
+    }
+} 

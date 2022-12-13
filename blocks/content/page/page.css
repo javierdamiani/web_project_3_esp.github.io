@@ -1,0 +1,18 @@
+.page {
+  background-color: #2a2c2f;
+  font-family: "Inter";
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 350px) {
+  .page {
+    flex-direction: column;
+    display: flex;
+    max-width: 320px;
+    align-items: center;
+  }
+}

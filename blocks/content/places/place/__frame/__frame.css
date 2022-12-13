@@ -1,0 +1,16 @@
+.place__frame{
+    grid-area: frame;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 355px;
+    border-radius: 4px;
+    background: #0278FE;
+}
+@media screen and (max-width: 320px) {
+    .place__frame{
+        max-width: 288px;
+        margin: 8px auto 0;
+    }
+}

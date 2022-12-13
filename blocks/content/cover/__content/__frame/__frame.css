@@ -1,0 +1,25 @@
+.cover__frame {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 449px;
+  height: 48px;
+  width: 198px;
+  border-radius: 4px;
+  background: #0278fe;
+  transition: background-color 0.5 linear;
+}
+.cover__frame:hover {
+  background-color: #0063d2;
+  transition: background-color 0.5s linear;
+  cursor: pointer;
+}
+.cover__frame:hover + .cover__background {
+  opacity: 0.2;
+}
+@media screen and (max-width: 320px) {
+  .cover__frame {
+    max-width: 198px;
+    top: 161px;
+  }
+}

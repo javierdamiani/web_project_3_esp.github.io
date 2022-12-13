@@ -1,0 +1,17 @@
+.header__subtitle{
+    color: #fff;
+    font-size: 1.875em ;
+    font-weight: 400;
+    line-height: 36px;
+    /* border: 1px solid red; */
+    max-width: 720px;
+    text-align: center;
+    margin-top: 32px;
+}
+@media screen and (max-width: 320px) {
+    .header__subtitle{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 60px;
+    }
+}
